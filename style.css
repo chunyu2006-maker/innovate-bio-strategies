@@ -8,7 +8,6 @@ body {
 .site-header {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   gap: 180px;
   padding: 20px 60px;
   background: white;
@@ -33,9 +32,11 @@ body {
   font-weight: 500;
 }
 
-.hero {
-  max-width: 1400px;
-  padding: 60px 80px 20px 80px;
+.hero,
+.section {
+  max-width: 1100px;
+  margin: 0;
+  padding: 50px 80px 20px 80px;
 }
 
 .eyebrow {
@@ -43,15 +44,15 @@ body {
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  font-size: 22px;
-  margin-bottom: 24px;
+  font-size: 18px;
+  margin-bottom: 18px;
 }
 
 .hero h1 {
   font-size: 58px;
   line-height: 1.15;
-  max-width: 900px;
   font-weight: 700;
+  max-width: 950px;
 }
 
 h2 {
@@ -60,10 +61,17 @@ h2 {
   font-weight: 600;
   margin-bottom: 24px;
 }
+
+.hero-text,
+.section p,
+.service-list,
+.contact-form {
+  max-width: 900px;
+}
+
 .hero-text {
   font-size: 16px;
   line-height: 1.7;
-  max-width: 750px;
   color: #555;
 }
 
@@ -77,16 +85,12 @@ h2 {
   border-radius: 6px;
 }
 
-.section {
-  padding: 25px 80px;
-  max-width: 1400px;
-}
-
 .highlight {
   background: #f8f9fa;
   border-radius: 10px;
-  margin: 0 80px 40px 80px;
+  margin: 20px 80px 40px 80px;
   padding: 40px;
+  max-width: 980px;
 }
 
 footer {
@@ -99,7 +103,6 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  max-width: 700px;
   margin-top: 30px;
 }
 
@@ -119,10 +122,6 @@ footer {
 
 .contact-form textarea {
   resize: vertical;
-}
-
-.contact-box {
-  max-width: 800px;
 }
 
 .profile-layout {
@@ -149,20 +148,4 @@ footer {
 
 .profile-content a:hover {
   text-decoration: underline;
-}
-.hero,
-.section {
-  max-width: none;
-  width: auto;
-  padding-left: 80px;
-  padding-right: 80px;
-}
-
-.hero-text,
-.section p {
-  max-width: 1050px;
-}
-
-.hero h1 {
-  max-width: 1150px;
 }
