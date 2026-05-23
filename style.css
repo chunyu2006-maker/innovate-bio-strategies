@@ -123,3 +123,29 @@ footer {
 .contact-box {
   max-width: 800px;
 }
+
+.profile-layout {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.profile-photo img {
+  width: 260px;
+  border-radius: 10px;
+  display: block;
+}
+
+.profile-content {
+  flex: 1;
+}
+
+.profile-content a {
+  color: #0f8b8d;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.profile-content a:hover {
+  text-decoration: underline;
+}
