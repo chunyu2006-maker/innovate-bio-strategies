@@ -192,45 +192,18 @@ footer {
   color: #777;
   margin-top: 40px;
 }
+.section + .section {
+  padding-top: 18px;
+}
 
+.hero + .section {
+  padding-top: 20px;
+}
+/* Mobile */
 /* Mobile */
 @media (max-width: 900px) {
   .site-header {
     flex-direction: column;
-    gap: 20px;
-  }
-
-  .hero,
-  .section,
-  .highlight {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-
-  .profile-layout {
-    grid-template-columns: 1fr;
-  }
-
-  .profile-photo img {
-    width: 220px;
-  }
-
-  .hero h1 {
-    font-size: 40px;
-  }
-
-  h2 {
-    font-size: 30px;
-  }
-
-  .nav {
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-@media (max-width: 900px) {
-  .site-header {
     padding: 12px 24px 18px 24px;
     gap: 14px;
   }
@@ -243,12 +216,27 @@ footer {
     margin: 0;
     gap: 24px;
     row-gap: 12px;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
   .hero,
-  .section {
-    padding: 40px 24px 10px 24px;
+  .section,
+  .highlight {
+    padding: 32px 24px 8px 24px;
+  }
+
+  .hero + .section,
+  .section + .section {
+    padding-top: 14px;
+  }
+
+  .profile-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-photo img {
+    width: 220px;
   }
 
   .hero h1 {
@@ -261,11 +249,8 @@ footer {
     line-height: 1.7;
   }
 
-  .section {
-    padding-top: 20px;
-  }
-
   h2 {
     font-size: 34px;
   }
+}
 }
