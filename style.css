@@ -34,8 +34,8 @@ body {
 }
 
 .hero {
-  max-width: 900px;
-  padding: 60px 60px 10px 60px;
+  max-width: 1400px;
+  padding: 60px 80px 20px 80px;
 }
 
 .eyebrow {
@@ -78,15 +78,15 @@ h2 {
 }
 
 .section {
-  padding: 25px 60px;
-  max-width: 900px;
+  padding: 25px 80px;
+  max-width: 1400px;
 }
 
 .highlight {
   background: #f8f9fa;
   border-radius: 10px;
-  margin: 0 60px 60px 60px;
-  padding: 50px;
+  margin: 0 80px 40px 80px;
+  padding: 40px;
 }
 
 footer {
