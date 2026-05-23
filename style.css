@@ -229,3 +229,43 @@ footer {
     justify-content: center;
   }
 }
+@media (max-width: 900px) {
+  .site-header {
+    padding: 12px 24px 18px 24px;
+    gap: 14px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .nav {
+    margin: 0;
+    gap: 24px;
+    row-gap: 12px;
+    justify-content: center;
+  }
+
+  .hero,
+  .section {
+    padding: 40px 24px 10px 24px;
+  }
+
+  .hero h1 {
+    font-size: 44px;
+    line-height: 1.12;
+  }
+
+  .hero-text {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .section {
+    padding-top: 20px;
+  }
+
+  h2 {
+    font-size: 34px;
+  }
+}
