@@ -9,9 +9,8 @@ body {
 .site-header {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 140px;
-  padding: 20px 40px;
+  justify-content: flex-start;
+  padding: 20px 60px;
   background: white;
   border-bottom: 1px solid #eaeaea;
 }
@@ -25,6 +24,8 @@ body {
 .nav {
   display: flex;
   gap: 32px;
+  margin-left: auto;
+  margin-right: 150px;
 }
 
 .nav a {
