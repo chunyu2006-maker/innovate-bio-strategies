@@ -85,3 +85,33 @@ footer {
   text-align: center;
   color: #777;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 700px;
+  margin-top: 30px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: #222;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  font-size: 16px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-box {
+  max-width: 800px;
+}
