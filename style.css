@@ -150,3 +150,19 @@ footer {
 .profile-content a:hover {
   text-decoration: underline;
 }
+.hero,
+.section {
+  max-width: none;
+  width: auto;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.hero-text,
+.section p {
+  max-width: 1050px;
+}
+
+.hero h1 {
+  max-width: 1150px;
+}
